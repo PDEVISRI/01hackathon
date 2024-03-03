@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Restaurant Cards</title>
+    <style>.restaurant-card {
+        background-color: #ef6718;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        transition: transform 0.3s;
+    }
+    
+    .restaurant-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .restaurant-card h2 {
+        margin-top: 0;
+        color: #efe7e7;
+    }
+    
+    .restaurant-card p {
+        margin-bottom: 0;
+        color: #f0e5e5;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;  /* Change background color to black */
+}
+
+/* ... rest of the styles remain unchanged ... */
+
+    </style>
+</head>
+<body>
+
+<div class="container-fluid mt-4">
+    
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="restaurant-card">
+                <h2>The Hungry Panda</h2>
+                <p>Food Remaining: 20%</p>
+            </div>
+        </div>
+        <p></p>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="restaurant-card">
+                <h2>Italian Delight</h2>
+                <p>Food Remaining: 30%</p>
+            </div>
+        </div>
+<p></p>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="restaurant-card">
+                <h2>Sushi Paradise</h2>
+                <p>Food Remaining: 15%</p>
+            </div>
+        </div>
+<p></p>
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="restaurant-card">
+                <h2>BBQ Haven</h2>
+                <p>Food Remaining: 25%</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
